@@ -648,3 +648,4 @@ with tf.Session(graph=graph,
         global_step=results['step'])
     save_config(config_path, config_complete)
     save_train_config(train_config_path, train_config)
+    # add test line
